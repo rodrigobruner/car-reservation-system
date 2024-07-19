@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("conestoga-sdt-assignment-3-car-reservation-system")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e717271b8558074cd05f6870df805f9c1cbbe6a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50d67d2b44fac3e00aeef80bfc1af559f3ec6f51")]
 [assembly: System.Reflection.AssemblyProductAttribute("conestoga-sdt-assignment-3-car-reservation-system")]
 [assembly: System.Reflection.AssemblyTitleAttribute("conestoga-sdt-assignment-3-car-reservation-system")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
