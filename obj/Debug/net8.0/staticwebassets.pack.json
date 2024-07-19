@@ -1,0 +1,341 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/obj/Debug/net8.0/scopedcss/projectbundle/conestoga-sdt-assignment-3-car-reservation-system.bundle.scp.css",
+      "PackagePath": "staticwebassets/conestoga-sdt-assignment-3-car-reservation-system.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/Book flip animation.xd",
+      "PackagePath": "staticwebassets/images/Book flip animation.xd"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/Compact.avif",
+      "PackagePath": "staticwebassets/images/Compact.avif"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/Compact.png",
+      "PackagePath": "staticwebassets/images/Compact.png"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/Economy.avif",
+      "PackagePath": "staticwebassets/images/Economy.avif"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/Economy.png",
+      "PackagePath": "staticwebassets/images/Economy.png"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/Intermediate.avif",
+      "PackagePath": "staticwebassets/images/Intermediate.avif"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/Intermediate.png",
+      "PackagePath": "staticwebassets/images/Intermediate.png"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/Luxury.avif",
+      "PackagePath": "staticwebassets/images/Luxury.avif"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/Luxury.png",
+      "PackagePath": "staticwebassets/images/Luxury.png"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/Midterm Images.zip",
+      "PackagePath": "staticwebassets/images/Midterm Images.zip"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/Pickup.avif",
+      "PackagePath": "staticwebassets/images/Pickup.avif"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/Pickup.png",
+      "PackagePath": "staticwebassets/images/Pickup.png"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/Premium.avif",
+      "PackagePath": "staticwebassets/images/Premium.avif"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/Premium.png",
+      "PackagePath": "staticwebassets/images/Premium.png"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/SUV.avif",
+      "PackagePath": "staticwebassets/images/SUV.avif"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/SUV.png",
+      "PackagePath": "staticwebassets/images/SUV.png"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/Standard.avif",
+      "PackagePath": "staticwebassets/images/Standard.avif"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/Standard.png",
+      "PackagePath": "staticwebassets/images/Standard.png"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/no-reservations.png",
+      "PackagePath": "staticwebassets/images/no-reservations.png"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.conestoga-sdt-assignment-3-car-reservation-system.props",
+      "PackagePath": "build\\conestoga-sdt-assignment-3-car-reservation-system.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.conestoga-sdt-assignment-3-car-reservation-system.props",
+      "PackagePath": "buildMultiTargeting\\conestoga-sdt-assignment-3-car-reservation-system.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.conestoga-sdt-assignment-3-car-reservation-system.props",
+      "PackagePath": "buildTransitive\\conestoga-sdt-assignment-3-car-reservation-system.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.conestoga-sdt-assignment-3-car-reservation-system.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

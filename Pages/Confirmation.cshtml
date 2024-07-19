@@ -1,0 +1,46 @@
+﻿@page
+@model ConfirmationModel
+@{
+    ViewData["Title"] = "Confirmation";
+}
+
+<div class="card-header">
+    <h1>@ViewData["Title"]</h1>
+</div>
+    <div class="card-body fs-5">
+        <p><span class="fa fa fa-male"> Reserve for: <span class="fw-bold">@Model.reserve.name</span></p>
+        <p><span class="fa fa-address-card"></span> Contact: @Model.reserve.phone</p>
+        <p class="fw-bold"><span class="fa fa-envelope"> You will resive this confirmation on this email: @Model.reserve.email</p>
+        <p><span class="fa fa-calendar"></span> Data tame: <span class="fw-bold">@Model.reserve.date - @Model.reserve.time</span></p>
+        <p><span class="fa fa-map-marker"></span> Pick-up address: 107 Roger St Waterloo - ON </p>
+        <p><span class="fa fa-mobile"></span> If you have any questions, please call #: 519-123-4567</p>
+        <div class="card mb-3" style="max-width: 100%;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="./images/@Model.car.image" class="img-fluid rounded-start" alt="@Model.car.model - @Model.car.brand">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">@Model.car.model - @Model.car.brand</h5>
+                        <p class="card-text">@Model.car.description</p>
+                        <p class="card-text">
+                            <small class="text-body-secondary">
+                                <span class="fa fa-gears"></span>
+                                @if (Model.car.isAutomatic){
+                                    <span>Automatic</span>
+                                }else{
+                                    <span>Manual</span>
+                                }
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <span class="fa fa-group"></span> @Model.car.numberOfPeople &nbsp;&nbsp;&nbsp;&nbsp;
+                                <span class="fa fa-briefcase"></span> @Model.car.numberOfBags
+                            </small>
+                            <div class="price">$@Model.car.pricePerDay/day</div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h4 class="text-center">Thanks for the reservation, remember to bring your driver's license.</h4>
+    </div>
+</div>

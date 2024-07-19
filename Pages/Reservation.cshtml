@@ -1,0 +1,71 @@
+﻿@page
+@model ReservationModel
+@{
+    ViewData["Title"] = "Reservation";
+}
+<div class="card">
+  <div class="card-header">
+    <h1>@ViewData["Title"]</h1>
+    <p>Make your reservation here and facilitate your pick-up.</p>
+  </div>
+  <div class="card-body">
+    <form method="post">
+    <div class="form-group">
+        <label class="col-form-label-lg" for="name">Driver's name:</label>
+        <input 
+        class="form-control form-control-lg" 
+        type="text" 
+        id="name" 
+        asp-for="reserve.name">
+        <span asp-validation-for="reserve.name" class="text-danger"></span><br>
+
+        <label class="col-form-label-lg"  for="email">E-mail:</label>
+        <input class="form-control form-control-lg" 
+        type="email"
+        id="email"
+        placeholder="your@email.com"
+        asp-for="reserve.email">
+        <span asp-validation-for="reserve.email" class="text-danger"></span><br>
+
+        <label class="col-form-label-lg" for="phone">Phone number:</label>
+        <input 
+        id="phone"
+        class="form-control form-control-lg" 
+        type="text" 
+        placeholder="999-999-9999"
+        asp-for="reserve.phone">
+        <span asp-validation-for="reserve.phone" class="text-danger"></span><br>
+        <label class="col-form-label-lg" for="date">Booking date:</label>
+        <input 
+        class="form-control form-control-lg"
+        type="date" 
+        asp-for="reserve.date">
+        <span asp-validation-for="reserve.date" class="text-danger"></span><br>
+
+        <label class="col-form-label-lg" for="date">Booking time:</label>
+        <select class="form-control form-control-lg" aria-label="Default select example" asp-for="reserve.time">
+            @foreach(var time in Reserve.GetPickupTimes()) {
+                <option value=@time>@time</option>
+            }
+        </select>
+        <span asp-validation-for="reserve.time" class="text-danger"></span><br>
+
+        <label class="col-form-label-lg" for="date">Car category:</label>
+        <select class="form-control form-control-lg" aria-label="Default select example" asp-for="reserve.car">
+            @foreach(var car in Model.carInventory.getInventory()) {
+                @if(car.id == Model.selectedCar){
+                  <option selected value=@car.id>@car.category - @car.brand @car.model or similar. $@car.pricePerDay / day </option>
+                }else{
+                  <option value=@car.id>@car.category - @car.brand @car.model or similar. $@car.pricePerDay / day </option>
+                }
+            }
+        </select>
+        <span asp-validation-for="reserve.car" class="text-danger"></span><br>
+        <hr>
+        <input type="submit" class="btn btn-primary" value="Reserve now">
+
+    </div>
+    </form>
+  </div>
+</div>
+

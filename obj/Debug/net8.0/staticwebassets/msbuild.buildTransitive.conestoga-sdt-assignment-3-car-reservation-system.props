@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/conestoga-sdt-assignment-3-car-reservation-system.props" />
+</Project>

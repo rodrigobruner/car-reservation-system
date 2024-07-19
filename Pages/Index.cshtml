@@ -1,0 +1,56 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    var count = 0;
+    var cssClass = "";
+}
+
+
+@if (Model.carInventory.getInventory().Count > 0)
+{
+    @foreach (var car in Model.carInventory.getInventory())
+    {
+        
+        @if (count % 2 == 0)
+        {
+            cssClass = "float:left;margin-right:15px;";
+        } else {
+            cssClass = "";
+        }
+        count = count + 1;
+
+        <div class="card mb-3" style="max-width: 50%; @cssClass">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="./images/@car.image" class="img-fluid rounded-start" alt="@car.model - @car.brand">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">@car.model - @car.brand</h5>
+                        <p class="card-text">@car.description</p>
+                        <p class="card-text">
+                            <small class="text-body-secondary">
+                                <span class="fa fa-gears"></span>
+                                @if (car.isAutomatic){
+                                    <span>Automatic</span>
+                                }else{
+                                    <span>Manual</span>
+                                }
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <span class="fa fa-group"></span> @car.numberOfPeople &nbsp;&nbsp;&nbsp;&nbsp;
+                                <span class="fa fa-briefcase"></span> @car.numberOfBags
+                            </small>
+                            <div class="price">$@car.pricePerDay/day</div>
+                        </p>
+                        <button onClick="window.location.href='/Reservation?car=@car.id'">Select</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+else
+{
+    <p>No Students</p>
+}

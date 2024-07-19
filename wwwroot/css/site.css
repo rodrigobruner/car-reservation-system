@@ -1,0 +1,77 @@
+:root{
+  --default-bg-color: #ffffff;
+  --primary-font-color: #000000;
+
+  --primary-color :#222f3e;
+  --secondary-color:#95C01C;
+  --tertiary-color: #FFFFFF;
+
+  --page-max-width: 1024px;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+header, footer {
+  padding-top: 1rem;
+  color: var(--tertiary-color);
+}
+
+footer{
+  padding-bottom: 1rem;
+}
+
+header, nav, footer {
+  background-color: var(--primary-color);
+}
+
+header a, nav a, nav button span, footer a{
+  padding-right: .5rem;
+  padding-left: .5rem;
+  color: var(--secondary-color);
+}
+
+header a:hover, nav a:hover, footer a:hover{
+  padding-right: .5rem;
+  padding-left: .5rem;
+  color: var(--tertiary-color);
+}
+
+.price {
+  color: var(--secondary-color);
+  float: right;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: right;
+}
+
+button {
+  width: 200px;
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}

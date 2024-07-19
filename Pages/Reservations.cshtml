@@ -1,0 +1,41 @@
+﻿@page
+@model ReservationsModel
+@{
+    ViewData["Title"] = "Reservations";
+}
+<div class="card-header">
+    <h1>@ViewData["Title"]</h1>
+  </div>
+  <div class="card-body">
+  @if (Model.reservations.Count > 0){
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>E-mail</th>
+          <th>Phone</th>
+          <th>Date/time</th>
+          <th>Car</th>
+        </tr>
+      </thead>
+      <tbody>
+      @foreach(var reserve in Model.reservations){
+        
+        <tr>
+          <td>@reserve.name</td>
+          <td>@reserve.email</td>
+          <td>@reserve.phone</td>
+          <td>@reserve.date @reserve.time</td>
+          <td>@Model.carInventory.getCarByID(@reserve.car).brand @Model.carInventory.getCarByID(@reserve.car).model</td>
+        </tr>
+      }
+      </tbody>
+    </table>
+  }else{
+    <div class="text-center">
+      <img src="images/no-reservations.png">
+      <h3>No reservations at the moment</h3>
+    </div>
+  }
+  </div>
+</div>
