@@ -43,7 +43,7 @@
                             </small>
                             <div class="price">$@car.pricePerDay/day</div>
                         </p>
-                        <button onClick="window.location.href='/Reservation?car=@car.id'">Select</button>
+                        <a asp-page="/Reservation" asp-route-car="@car.id" class="abutton ">Select this car</a>
                     </div>
                 </div>
             </div>
