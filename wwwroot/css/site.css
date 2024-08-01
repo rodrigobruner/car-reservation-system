@@ -66,14 +66,56 @@ header a:hover, nav a:hover, footer a:hover{
 }
 
 .abutton {
-  padding: 10px;
-  width: 200px;
   background-color: var(--primary-color);
   color: var(--tertiary-color);
-  border-radius: 10px;
-  text-decoration: none;
 }
 
 .abutton:hover {
+  background-color: var(--secondary-color);
+}
+
+.abuttonx {
+  background-color: var(--secondary-color);
+  
+}
+
+.abuttonx:hover {
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--primary-color);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: var(--secondary-color);
+}
+
+.active {
   background-color: var(--secondary-color);
 }

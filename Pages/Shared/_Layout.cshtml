@@ -1,6 +1,13 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-
+@{
+    //https://learn.microsoft.com/en-us/aspnet/core/fundamentals/app-state?view=aspnetcore-8.0
+    User user = null;
+    var userEmail = Context.Session.GetString("User"); // Here use context
+    if(userEmail != null) {
+        user = UsersRepo.GetUser(userEmail);
+    }
+}
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -32,14 +39,35 @@
                     <span class="fa fa-navicon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a asp-area="" asp-page="/Index">Home</a>
+                    <ul>
+                        <li >
+                            <a asp-area="" asp-page="/Index">&nbsp;Home&nbsp;</a>
                         </li>
-                        <li class="nav-item">
-                            <a asp-area="" asp-page="/Reservations">Reservations</a>
+                        <li >
+                            <a asp-area="" asp-page="/About">&nbsp;About&nbsp;</a>
                         </li>
+                        @{
+                            if (user != null && user.name != null) {
+                                <li>
+                                    <a asp-area="" asp-page="/Reservations">&nbsp;Reservations&nbsp;</a>
+                                </li>
+                                <li style="float:right">
+                                    <a asp-area="" asp-page="/Logout">Logout</a>
+                                </li>
+                            } else {
+                                <li style="float:right">
+                                    <a asp-area="" asp-page="/Login">&nbsp;Login&nbsp;</a>
+                                </li> 
+                            }
+                        }
                     </ul>
+                    @{
+                        if (user != null && user.name != null) {
+                            
+                        } else {
+                            
+                        }
+                    }
                 </div>
             </div>
         </nav>

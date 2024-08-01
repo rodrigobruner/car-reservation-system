@@ -1,0 +1,53 @@
+﻿@page
+@model SingupModel
+@{
+    ViewData["Title"] = "Login page";
+}
+<section>
+    <div class="container py-4">
+    <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-md-8 col-lg-7 col-xl-6">
+            <img src="images/singup.webp" class="img-fluid" alt="Phone image">
+        </div>
+        <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+            <form method="post">
+                <h2>Create a new account</h2>
+                <div class="form-outline mb-3">
+                    <label class="form-label" for="form1Example13">Name</label>
+                    <input asp-for="user.name" type="text" id="form1Example13" class="form-control form-control-lg" />
+                    <span asp-validation-for="user.name" class="text-danger"></span><br>
+                </div>
+                <div class="form-outline mb-3">
+                    <label class="form-label" for="form1Example13">Email address</label>
+                    <input asp-for="user.email" type="email" id="form1Example13" class="form-control form-control-lg" />
+                    <span asp-validation-for="user.email" class="text-danger"></span><br>
+
+                </div>
+                <div class="form-outline mb-3">
+                    <label class="form-label" for="form1Example23">Password</label>
+                    <input asp-for="user.password" type="password" id="form1Example23" class="form-control form-control-lg" />
+                    <span asp-validation-for="user.password" class="text-danger"></span><br>
+                </div>
+                <div class="form-outline mb-3">
+                    <label class="form-label" for="form1Example23">Confirm password</label>
+                    <input type="password" id="form1Example23" class="form-control form-control-lg" />
+                    <span asp-validation-for="user.password" class="text-danger"></span><br>
+                </div>
+                    <button type="submit" class="btn btn-lg btn-block pull-right abuttonx">
+                        <i class="fa fa-id-badge"></i>&nbsp;Create new account
+                    </button>
+            <br><br>
+            </form>
+            <div class="divider d-flex align-items-center my-3">
+                <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
+            </div>
+            <div class="text-center">
+                <p class="font-italic">Do you already have an account?</p>
+                <a class="btn btn-lg btn-block abutton" href="Login">
+                    <i class="fa fa-key"></i> &nbsp; Sing in
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>

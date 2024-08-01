@@ -1,0 +1,53 @@
+﻿@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Login page";
+}
+<section>
+    <div class="container py-5">
+    <div class="row d-flex align-items-center justify-content-center ">
+        <div class="col-md-8 col-lg-7 col-xl-6">
+            <img src="images/singin.webp" class="img-fluid" alt="Phone image">
+        </div>
+        <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+            <h2>Sign in</h2>
+            <form method="post">
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="email">Email address</label>
+                    <input asp-for="user.email" type="email" id="email" class="form-control form-control-lg" />
+                    <span asp-validation-for="user.email" class="text-danger"></span><br>
+                </div>
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="pass">Password</label>
+                    <input asp-for="user.password" type="password" id="pass" class="form-control form-control-lg" />
+                    <span asp-validation-for="user.email" class="text-danger"></span><br>
+                </div>
+                <div class="d-flex justify-content-around align-items-center mb-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="emember" checked />
+                        <label class="form-check-label" for="remember"> Remember me </label>
+                    </div>
+                    <a href="#">Forgot password?</a>
+                </div>
+                    @if (Model.error != null) {
+                        <div class="alert alert-danger">
+                            @Model.error
+                        </div>
+                    }
+                    <button type="submit" class="btn btn-lg btn-block pull-right abuttonx">
+                        <i class="fa fa-key"></i> &nbsp;Sign in
+                    </button>
+            <br><br>
+            </form>
+            <div class="divider d-flex align-items-center my-4">
+                <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
+            </div>
+            <div class="text-center">
+                <a class="btn btn-lg btn-block abutton" href="/Singup">
+                    <i class="fa fa-id-badge"></i> &nbsp; Create a new account
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>

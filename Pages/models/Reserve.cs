@@ -1,6 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 
 public class Reserve{
+    public int id {get;set;}
     
     [Required ( ErrorMessage = "Please enter your name") ]
     public string name {get; set;}

@@ -4,7 +4,7 @@ using System.Text.Json;
 public static class ReservationsRepo {
     static private List<Reserve> RESERVATIONS = new List<Reserve>();
 
-    static readonly string FILE_NAME = "reservations.json";
+    static readonly string FILE_NAME = "./Json/Reservations.json";
 
     public static void AddReservation(Reserve reservation){
         if (File.Exists(FILE_NAME))
@@ -20,6 +20,12 @@ public static class ReservationsRepo {
             File.WriteAllText(FILE_NAME, jsonList);
         }
         
+    }
+
+    public static Reserve GetReservation(int id){
+        Reserve reserve = getReservations().Where(reserve => reserve.id == id).FirstOrDefault();
+
+        return reserve != null ? reserve : throw new Exception("Reservation not found.");
     }
 
     public static List<Reserve> getReservations(){

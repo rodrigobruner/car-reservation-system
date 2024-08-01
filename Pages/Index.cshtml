@@ -4,8 +4,21 @@
     ViewData["Title"] = "Home page";
     var count = 0;
     var cssClass = "";
+
+    //https://learn.microsoft.com/en-us/aspnet/core/fundamentals/app-state?view=aspnetcore-8.0
+    User user = null;
+    var userEmail = HttpContext.Session.GetString("User"); // Here is required httpConext
+    if(userEmail != null) {
+        user = UsersRepo.GetUser(userEmail);
+    }
 }
 
+@{
+    if (user != null && user.name != null) {
+        <h3>Wecome @user.name! </h3>
+        <br>
+    }
+}
 
 @if (Model.carInventory.getInventory().Count > 0)
 {
@@ -43,7 +56,8 @@
                             </small>
                             <div class="price">$@car.pricePerDay/day</div>
                         </p>
-                        <a asp-page="/Reservation" asp-route-car="@car.id" class="abutton ">Select this car</a>
+                        <a asp-page="/Reservation" asp-route-car="@car.id" class="btn btn-lg btn-block abutton">Select this car</a>
+                        
                     </div>
                 </div>
             </div>
@@ -52,5 +66,5 @@
 }
 else
 {
-    <p>No Students</p>
+    <p>No Cars</p>
 }

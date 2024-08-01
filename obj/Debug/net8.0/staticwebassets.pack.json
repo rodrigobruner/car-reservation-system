@@ -89,6 +89,22 @@
       "PackagePath": "staticwebassets/images/no-reservations.png"
     },
     {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/no-reservations.webp",
+      "PackagePath": "staticwebassets/images/no-reservations.webp"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/singin.webp",
+      "PackagePath": "staticwebassets/images/singin.webp"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/singup.webp",
+      "PackagePath": "staticwebassets/images/singup.webp"
+    },
+    {
+      "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/images/user_created.webp",
+      "PackagePath": "staticwebassets/images/user_created.webp"
+    },
+    {
       "Id": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
