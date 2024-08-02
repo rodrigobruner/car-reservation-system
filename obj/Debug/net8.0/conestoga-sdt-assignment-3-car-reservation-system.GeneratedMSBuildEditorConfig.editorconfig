@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/Pages/Confirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/Pages/ManageReservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFuYWdlUmVzZXJ2YXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -56,6 +64,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/Pages/Singup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2luZ3VwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/Pages/UpdateReservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXBkYXRlUmVzZXJ2YXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/Pages/UserConfirmation.cshtml]

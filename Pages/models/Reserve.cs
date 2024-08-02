@@ -24,7 +24,7 @@ public class Reserve{
     public static List<String> GetPickupTimes(){
         List<String> list = new List<String>();
         for(var h=9; h < 21; h++){
-            for(var m=0; m<=60; m=m+15){
+            for(var m=0; m<60; m=m+15){
                 list.Add($"{h.ToString("00")}:{m.ToString("00")}");
             }
         }

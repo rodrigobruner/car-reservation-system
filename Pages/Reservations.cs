@@ -18,8 +18,25 @@ public class ReservationsModel : PageModel
 
     public void OnGet()
     {
-        carInventory = new CarInventory();
-        reservations = ReservationsRepo.getReservations();
+            
+        try {
+            User user = null;
+            var userEmail = HttpContext?.Session?.GetString("User"); // Here is required httpConext
+
+            if(userEmail != null) {
+                carInventory = new CarInventory();
+                reservations = ReservationsRepo.getReservations();
+                user = UsersRepo.GetUser(userEmail);
+                if(user.role != "Admin") {
+                    reservations = ReservationsRepo.getReservationsByEmail(user.email);
+                }
+            } else {
+                Response.Redirect("/Login");
+            }
+        } catch (Exception e) {
+            Response.Redirect("/Login");
+        }
+        
     }
 }
 

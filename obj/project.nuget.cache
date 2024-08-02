@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mn4q0qU0lEI=",
+  "dgSpecHash": "or1KjzywkI8=",
   "success": true,
   "projectFilePath": "/Users/rodrigobruner/Developer/SDT _ Software-Development-Technics/conestoga-sdt-assignment-3-car-reservation-system/conestoga-sdt-assignment-3-car-reservation-system.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/rodrigobruner/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

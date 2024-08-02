@@ -26,7 +26,7 @@ public class LoginModel : PageModel
         Console.WriteLine(user.email);
         if(UsersRepo.ValidateCredential(user.email, user.password)){
             HttpContext.Session.SetString("User", user.email);
-            return RedirectToPage("/Index", user);
+            return RedirectToPage("/Reservations");
         }
         Console.WriteLine("Login fail!");
         this.error = "Invalid username or password";

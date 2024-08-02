@@ -7,4 +7,8 @@
     <RootNamespace>conestoga_sdt_assignment_3_car_reservation_system</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+  </ItemGroup>
+
 </Project>

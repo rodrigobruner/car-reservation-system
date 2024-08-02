@@ -5,16 +5,13 @@ public class User{
     public string name {set; get;}
     public string email {set; get;}
     public string password {set; get;}
-    public string role = "User";
+    public string role {set; get;}
 
     public User(){}
-    public User(int id,
-                string name,
+    public User(string name,
                 string email,
                 string password,
                 string role="User"){
-
-        this.id = id;
         this.name = name;
         this.email  = email;
         this.password = password;

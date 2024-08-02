@@ -9,21 +9,25 @@ public class SingupModel : PageModel
 
     public User user;
 
+    public string? error;
+
     public SingupModel(ILogger<SingupModel> logger)
     {
         _logger = logger;
     }
-
-    public void OnGet()
+    public void OnGet(string? errorMsg)
     {
+        this.error = errorMsg;
+        Console.WriteLine(errorMsg);
     }
 
     public IActionResult OnPost(User user)
     {
-        if(!ModelState.IsValid)
-            return Page();
-    
-        UsersRepo.AddUser(user);
+        bool status = UsersRepo.AddUser(user);
+        Console.WriteLine(status);
+        if (!status) {
+            return RedirectToPage("Singup", new { errorMsg = "User already exists." });
+        }
         return RedirectToPage("UserConfirmation", user);
     }
 }

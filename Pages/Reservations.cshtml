@@ -7,7 +7,7 @@
     <h1>@ViewData["Title"]</h1>
   </div>
   <div class="card-body">
-  @if (Model.reservations.Count > 0){
+  @if (Model?.reservations?.Count > 0){
     <table class="table">
       <thead>
         <tr>
@@ -16,6 +16,7 @@
           <th>Phone</th>
           <th>Date/time</th>
           <th>Car</th>
+          <th>Actions</th>
         </tr>
       </thead>
       <tbody>
@@ -27,6 +28,14 @@
           <td>@reserve.phone</td>
           <td>@reserve.date @reserve.time</td>
           <td>@Model.carInventory.getCarByID(@reserve.car).brand @Model.carInventory.getCarByID(@reserve.car).model</td>
+          <td>
+            <a asp-page="/UpdateReservation" asp-route-id="@reserve.id" class="btn btn-lg btn-block abutton">
+              <span class="fa fa-edit"></span> Update
+            </a>
+            <a asp-page="/ManageReservation" onclick="return confirm('Are you sure you want to remove this reservation?')" asp-route-id="@reserve.id" class="btn btn-lg btn-block delbutton">
+              <span class="fa fa-trash"></span> Remove
+            </a>
+          </td>
         </tr>
       }
       </tbody>

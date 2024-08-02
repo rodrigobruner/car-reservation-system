@@ -1,7 +1,7 @@
 ﻿@page
 @model SingupModel
 @{
-    ViewData["Title"] = "Login page";
+    ViewData["Title"] = "Create new account";
 }
 <section>
     <div class="container py-4">
@@ -32,10 +32,15 @@
                     <label class="form-label" for="form1Example23">Confirm password</label>
                     <input type="password" id="form1Example23" class="form-control form-control-lg" />
                     <span asp-validation-for="user.password" class="text-danger"></span><br>
-                </div>
-                    <button type="submit" class="btn btn-lg btn-block pull-right abuttonx">
-                        <i class="fa fa-id-badge"></i>&nbsp;Create new account
-                    </button>
+                </div> 
+                @if(!String.IsNullOrEmpty(Model.error)) {
+                    <div class="alert alert-danger" role="alert">
+                        @Model.error    
+                    </div>
+                }
+                <button type="submit" class="btn btn-lg btn-block pull-right abuttonx">
+                    <i class="fa fa-id-badge"></i>&nbsp;Create new account
+                </button>
             <br><br>
             </form>
             <div class="divider d-flex align-items-center my-3">
