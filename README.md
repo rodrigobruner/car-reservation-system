@@ -1,6 +1,4 @@
-# Conestoga College - Mobile Solutions Development
-## Software Development Technics
-### Assignment 3 Car Rental System - Web version
+## Car Rental System - Web version
 
 The data files are generated in the Json directory.
 
