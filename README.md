@@ -70,7 +70,7 @@ VehicleReservationSystem/
 📥 Installation & Usage
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/vehicle-reservation-system.git
+git clone https://github.com/rodrigobruner/car-reservation-system.git
 ````
 2. Open the solution in Visual Studio
 3. Run the project with IIS Express or dotnet run
